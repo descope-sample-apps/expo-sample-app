@@ -1,35 +1,38 @@
-# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+.expo
+.vscode
+node_modules
+yarn-error.log
+yarn.lock
+package-lock.json
 
-# dependencies
-node_modules/
+# Web
+web-build
+web-report
 
-# Expo
-.expo/
-dist/
-web-build/
+# Electron
+dist
+
+# Gatsby
+.cache
+with-gatsby/public
+
+# Next.js
+.next
+with-nextjs/out
 
 # Native
-*.orig.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
+*/ios/Pods
 
-# Metro
-.metro-health-check*
-
-# debug
-npm-debug.*
-yarn-debug.*
-yarn-error.*
-
-# macOS
-.DS_Store
-*.pem
+# Websockets
+*/backend/.env
 
 # local env files
-.env*.local
+*/.env*.local
+.env
 
-# typescript
-*.tsbuildinfo
+
+.DS_Store
+report.html
+
+# Maintenance logs
+.sdk-upgrade-logs
