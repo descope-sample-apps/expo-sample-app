@@ -1,4 +1,5 @@
-![Monosnap Github Profile Header Generator 2023-07-20 23-09-34](https://github.com/descope-sample-apps/remix-oauth2-sample-app/assets/32936811/82b448e5-742d-46fd-8c4f-ff0792fded11)
+<img width="1400" alt="Screenshot 2023-12-27 at 1 58 24 PM" src="https://github.com/descope-sample-apps/expo-sample-app/assets/32936811/3ca54235-19a3-407f-8b36-dd1425d957e2">
+
 
 ---
 
