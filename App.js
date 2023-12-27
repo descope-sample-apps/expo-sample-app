@@ -67,7 +67,6 @@ export default function App() {
   React.useEffect(() => {
     if (authTokens && authTokens.accessToken) {
       const decodedToken = jwtDecode(authTokens.accessToken);
-      console.log("DecodedToken:", decodedToken);
       setUserInfo(decodedToken);
     }
   }, [authTokens]);
@@ -84,7 +83,7 @@ export default function App() {
       setAuthTokens(null);
     }
   };
-  console.log("authTokens: " + JSON.stringify(authTokens));
+  // console.log("authTokens: " + JSON.stringify(authTokens));
   return (
     <View style={appStyles.container}>
       {authTokens ? (
